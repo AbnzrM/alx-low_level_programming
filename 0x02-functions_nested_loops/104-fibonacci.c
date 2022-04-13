@@ -15,7 +15,7 @@ int main(void)
   printf("%lu, %lu, ", bk1, bk2);
   for (count = 2; count < 98; count++)
   {
-    if (bk1 + bk2 > LARGEST  fr2 > 0  fr1 > 0)
+    if (bk1 + bk2 > LARGEST || fr2 > 0 || fr1 > 0)
     {
       hold1 = (bk1 + bk2) / LARGEST;
       hold2 = (bk1 + bk2) % LARGEST;
@@ -36,4 +36,6 @@ int main(void)
   printf("\n");
   return (0);
 }
+
+
 
