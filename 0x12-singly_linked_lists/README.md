@@ -1,0 +1,1 @@
+linked list are the better alternative to arrays!
